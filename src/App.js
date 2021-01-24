@@ -46,7 +46,7 @@ function App() {
     const handlePayment = (e) => {
         e.preventDefault();
         axios
-            .post("http://localhost:5000/api/payment", {
+            .post("https://paytm-backend.vercel.app/api/payment", {
                 amount: 5000,
                 email: "abc@gmail.comup",
                 phoneno: "9876543211",
